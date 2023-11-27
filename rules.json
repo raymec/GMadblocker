@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {"type": "block"},
+        "condition": {"urlFilter": "*://*doubleclick.net/*"}
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": {"type": "block"},
+        "condition": {"urlFilter": "*://googleadservices.com/*"}
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": {"type": "block"},
+        "condition": {"urlFilter": "*://ptaujoot.net/*"}
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": {"type": "block"},
+        "condition": {"urlFilter": "*://linkprotectors.com/*"}
+    },
+    {
+        "id": 5,
+        "priority": 1,
+        "action": {"type": "block"},
+        "condition": {"urlFilter": "*://searchatory.com/*"}
+    },
+    {
+        "id": 6,
+        "priority": 1,
+        "action": {"type": "block"},
+        "condition": {"urlFilter": "*://trekandtraveller.com/*"}
+    },
+    {
+        "id": 7,
+        "priority": 1,
+        "action": {"type": "block"},
+        "condition": {"urlFilter": "*://searchblitz.com/*"}
+    }
+]

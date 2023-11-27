@@ -1,0 +1,18 @@
+{
+    "name": "gmadblocker",
+    "version": "1.0",
+    "description": "adblocker for popular movie streaming site",
+    "permissions": ["declarativeNetRequest"],
+    "declarative_net_request": {
+        "rule_resources": [
+            {"id": "ruleset_1",
+            "enabled": true,
+            "path": "rules.json"}]
+    },
+    "icons": {
+        "16" : "icons/gecko16.png",
+        "48" : "icons/gecko48.png",
+        "128": "icons/gecko128.png"
+    },
+    "manifest_version": 3
+}
